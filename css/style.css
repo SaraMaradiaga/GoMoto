@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root {
+    --color-negro: #282d33;
+    --color-naranja: #f7b614;
+    --color-titulos: #fff;
+    --color-contenido: #aaa;
+    --bg-dark: #1d2026;
+    --bg-light: #f8f9fa;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    color: var(--color-contenido);
+    background-color: var(--bg-light);
+}
+
+header {
+    background-color: var(--color-negro);
+    padding: 20px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+header .navbar-brand img {
+    width: 150px;
+}
+
+header .navbar-nav .nav-link {
+    color: var(--color-titulos);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header .navbar-toggler {
+    border: none;
+}
+
+#hero {
+    padding: 100px 0;
+    background-color: var(--bg-dark);
+    background-image: url("../img/slider-glob.png"); /* Fondo con diseño */
+    background-position: bottom right;
+    background-size: cover;
+    color: var(--color-titulos);
+}
+
+#hero h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    max-width: 500px;
+}
+
+#hero .btn {
+    background-color: var(--color-naranja);
+    color: var(--color-negro);
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#hero img {
+    max-width: 100%;
+}
+
+#Populargoods {
+    padding: 60px 0;
+    background-color: var(--bg-light);
+}
+
+#Populargoods {
+	background-color: #f7f7f7;
+  }
+  
+  #Populargoods h4 {
+	font-size: 1.2rem;
+	color: #f7b614;
+  }
+  
+  #Populargoods h2 {
+	font-size: 2rem;
+	color: #2a2a32;
+	margin-bottom: 2rem;
+  }
+
+.barra {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.barra h3 {
+    font-size: 1rem;
+    color: var(--color-negro);
+    font-weight: 700;
+}
+#Populargoods {
+	background-color: #f7f7f7;
+  }
+  
+  #Populargoods h4 {
+	font-size: 1.2rem;
+	color: #f7b614;
+  }
+  
+  #Populargoods h2 {
+	font-size: 2rem;
+	color: #2a2a32;
+	margin-bottom: 2rem;
+  }
+  
+  .product-card {
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+	transform: translateY(-10px);
+  }
+  
+  .product-card img {
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 15px;
+  }
+  
+  .product-card h5 {
+	font-size: 1.5rem;
+	color: #2a2a32;
+	margin-bottom: 10px;
+  }
+  
+  .stars i {
+	color: #f7b614;
+  }
+  
+  .product-card p {
+	font-size: 1.2rem;
+	color: #333;
+	margin-bottom: 15px;
+  }
+  
+  .product-card .btn {
+	background-color: #f7b614;
+	color: #fff;
+	border-radius: 50px;
+	padding: 10px 20px;
+  }
+  
+#sit-at-home {
+    padding: 60px 0;
+    background-color: var(--bg-dark);
+    color: var(--color-titulos);
+}
+
+#sit-at-home h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#sit-at-home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#sit-at-home .btn {
+    background-color: var(--color-naranja);
+    color: var(--color-negro);
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#sit-at-home img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: var(--color-negro);
+    padding: 40px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer p span {
+    color: var(--color-naranja);
+}
+
+footer #copy {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
